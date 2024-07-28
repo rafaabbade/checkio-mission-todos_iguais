@@ -1,1 +1,15 @@
-{{CODIGO INICIAL}}
+def todos_iguais(elementos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(todos_iguais([1, 1, 1, 1]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert todos_iguais([1, 1, 1, 1]) == True
+assert todos_iguais([1, 2, 1]) == False
+assert todos_iguais(['a', 'a', 'a']) == True
+assert todos_iguais(['a', 'b']) == False
+assert todos_iguais([]) == True  # Lista vazia deve retornar True
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
